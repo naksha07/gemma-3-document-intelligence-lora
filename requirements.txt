@@ -1,0 +1,41 @@
+# ============================================================
+# Core Deep Learning & GPU
+# ============================================================
+torch>=2.0.0
+torchvision>=0.15.0
+
+# ============================================================
+# Hugging Face Ecosystem
+# ============================================================
+transformers>=4.36.0
+datasets>=2.14.0
+peft>=0.7.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0
+trl>=0.7.0
+sentencepiece>=0.1.99
+tokenizers>=0.15.0
+huggingface_hub>=0.20.0
+
+# ============================================================
+# Evaluation & Metrics (optional but used for README)
+# ============================================================
+evaluate>=0.4.0
+rouge-score>=0.1.2
+
+# ============================================================
+# Visualization & Plotting
+# ============================================================
+matplotlib>=3.5.0
+
+# ============================================================
+# Utilities & Colab Integration
+# ============================================================
+einops>=0.6.0          # required for Gemma model architecture
+protobuf>=3.20.0       # often required by transformers
+ipywidgets>=7.7.0      # enables the `notebook_login()` widget
+
+# ============================================================
+# (Optional) For Jupyter notebook compatibility
+# ============================================================
+ipykernel>=6.0.0
